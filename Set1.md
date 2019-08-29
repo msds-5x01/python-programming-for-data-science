@@ -82,6 +82,6 @@ count_backwards()
 
 ```python
 assert rock_paper_scissors('rock', 'paper') == -1
-assert rock_paper_scissors('scissors', paper') == 1
-assert rock_paper_scissors('paper', paper') == 0
+assert rock_paper_scissors('scissors', 'paper') == 1
+assert rock_paper_scissors('paper', 'paper') == 0
 ```
