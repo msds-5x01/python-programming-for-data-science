@@ -78,7 +78,7 @@ count_backwards()
 ...
 ```
 
-8. Define the function `rock_paper_scissors(s1, s2)` where `s1` and `s2` both containing one of the following values `'paper'`, `'rock'`, or `'scissors`. Following the rules of the hand game Rock-Paper-Scissors, the function should return 1 if `s1` wins, -1 if `s2` wins, and 0 if it's draw.
+8. Define the function `rock_paper_scissors(s1, s2)` where `s1` and `s2` both containing one of the following values `'paper'`, `'rock'`, or `'scissors`. Following the rules of the hand game Rock-Paper-Scissors, the function should return `1` if `s1` wins, `-1` if `s2` wins, and `0` if it's a draw.
 
 ```python
 assert rock_paper_scissors('rock', 'paper') == -1
