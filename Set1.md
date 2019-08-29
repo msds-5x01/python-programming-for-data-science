@@ -28,7 +28,7 @@ assert avg_even([1, 3, 7, 2, 8, 3, 7, 6, 0]) == 4.0
 
 3. Define the function `avg_skip(array, n_skip)` that returns the averge value of the numbers in the list `array` after skipping the first `n_skip` elements. 
 
-````python
+```python
 def avg_skip(array, n_skip):
    #  write your code here 
    return 
