@@ -37,7 +37,7 @@ def avg_skip(array, n_skip):
 assert avg_skip([1, 2, 7, 6, 5, 5], 2) == 5.75
 ```
 
-4. Define the function `compute_trinomial(a, x)` that returns the value of the trinomial a[2]*x*x + a[1]*x + a[0].
+4. Define the function `compute_trinomial(a, x)` that returns the value of the trinomial `a[2]*x^2 + a[1]*x + a[0]`.
 
 ```python
 def compute_trinomial(a, x):
@@ -48,7 +48,7 @@ def compute_trinomial(a, x):
 assert compute_trinomial([-7, 2, 1], 2) == 1.0
 ```
 
-5. Extend the function above to `compute_polynomial(a, x)` that works for polynomials of any degree. 
+5. Extend the function above to `compute_polynomial(a, x)` that works for polynomials of any degree: `a[0] + a[1]*x + a[2]*x^2 + ... +a[n]*x^n`.
 
 ```python
 def compute_polynomial(a, x):
