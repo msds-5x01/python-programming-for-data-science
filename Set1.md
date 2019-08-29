@@ -59,10 +59,29 @@ def compute_polynomial(a, x):
 assert compute_trinomial([-7, 2, 1, 1], 2) == 9.0
 ```
 
-6. Define the function `largest_rise(array)` that prints the largest number that is precided by a negative number in the list `array`:
+6. Define the function `largest_rise(array)` that prints the largest number that is precided by a negative number in the input list:
 
 ``` python
 # test
 assert largest_rise([-3, 2, -7, 3, 9, -1, 0, 11]) == 3
 ```
 
+7. Write a function `count_backwards` that counts from 100 to 0 by fives, printing the numbers.
+
+```pyhon
+# test
+count_backwards()
+100
+95
+90
+85
+...
+```
+
+8. Define the function `rock_paper_scissors(s1, s2)` where `s1` and `s2` both containing one of the following values `'paper'`, `'rock'`, or `'scissors`. Following the rules of the hand game Rock-Paper-Scissors, the function should return 1 if `s1` wins, -1 if `s2` wins, and 0 if it's draw.
+
+```python
+assert rock_paper_scissors('rock', 'paper') == -1
+assert rock_paper_scissors('scissors', paper') == 1
+assert rock_paper_scissors('paper', paper') == 0
+```
