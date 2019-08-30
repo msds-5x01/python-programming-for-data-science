@@ -85,3 +85,31 @@ assert rock_paper_scissors('rock', 'paper') == -1
 assert rock_paper_scissors('scissors', 'paper') == 1
 assert rock_paper_scissors('paper', 'paper') == 0
 ```
+
+9. Define the function `match_pattern(pattern, str)` that returns `True` when `str` matches `pattern` and `False` otherwise. A string matches the pattern if it has the same length and all the characters are the same but any dots `.` in `pattern` match any character in `str`:
+
+```python
+assert match_word('Houston', 'Houston') == True
+assert match_word('houston', 'Houston') == False
+assert match_word('..UST..', 'HOUSTON') == True
+assert match_word('.i..i..i..i', 'Mississippi') == True
+assert match_word('Data Science', 'Data Sc.ence') == False
+```
+
+10. Define the function `second_biggest(array)` that returns the second biggest number of the list of numbers `array`:
+
+```python
+assert second_biggest([93, 30, 39, 37, 78, 11, 7, 67, 63, 50, 92]) == 92
+assert second_biggest([-1, -2, -3, -4, -5]) == -2
+
+```
+
+11. Define the function `middle(a, b, c)`, which returns the middle value of its three numerical inputs, i.e. the number that neither larger nor smaller than any of the other two
+
+```python
+assert middle(1, 2, 3) == 2
+assert middle(-1, 3, -1) == -1
+assert middle(0, -3, 7) == 0
+assert middle(-3, -3, 4) == -3
+```
+
