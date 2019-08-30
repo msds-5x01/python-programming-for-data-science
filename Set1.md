@@ -96,7 +96,13 @@ assert match_word('.i..i..i..i', 'Mississippi') == True
 assert match_word('Data Science', 'Data Sc.ence') == False
 ```
 
-10. Define the function `second_biggest(array)` that returns the second biggest number of the list of numbers `array`:
+10. Use the `match_pattern` function from Problem 9 to define the function `find_match` that returns the first string from a sequence of strings that matches the pattern. If no match is found return `None`: 
+
+```python
+assert match_word('..UST..', ['Houston', 'NASA', 'UST', 'HOUSTON', 'Bayou']) == 'HOUSTON'
+```
+
+11. Define the function `second_biggest(array)` that returns the second biggest number of the list of numbers `array`:
 
 ```python
 assert second_biggest([93, 30, 39, 37, 78, 11, 7, 67, 63, 50, 92]) == 92
@@ -104,7 +110,7 @@ assert second_biggest([-1, -2, -3, -4, -5]) == -2
 
 ```
 
-11. Define the function `middle(a, b, c)`, which returns the middle value of its three numerical inputs, i.e. the number that neither larger nor smaller than any of the other two
+12. Define the function `middle(a, b, c)`, which returns the middle value of its three numerical inputs, i.e. the number that neither larger nor smaller than any of the other two
 
 ```python
 assert middle(1, 2, 3) == 2
@@ -113,3 +119,14 @@ assert middle(0, -3, 7) == 0
 assert middle(-3, -3, 4) == -3
 ```
 
+13. Define the function `longest` that returns the longest string from a sequence of strings. If two strings have the same length, then only the first one should be consdered.
+
+```python
+assert longest(['one', 'two', three', 'four', 'five', 'six']) == 'three'
+```
+
+14. Define the function `shortest_and_longest` that returns the the tuple of shortest and longest strings from a sequence of strings. If two strings have the same length, then only the first one should be considered. 
+
+```python
+assert shortest_and_longest(['one', 'two', three', 'four', 'five', 'six']) == ('one', 'three')
+```
