@@ -24,7 +24,7 @@ The course will focus on practical problem solving, including individual assignm
 Python Basics: Interactive work, programs, and literate programming with Jupyter.
 Statements and expressions. Assignments, variables, datatypes, and objects.
 
-[Problem Set 1](Set1.md)
+[Problem Set 1](Set1.md) Due Sep 11.
 
 ### Week 3. (Sep 4) - No class - work on assignments
 
