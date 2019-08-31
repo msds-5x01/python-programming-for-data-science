@@ -131,3 +131,6 @@ assert longest(['one', 'two', three', 'four', 'five', 'six']) == 'three'
 assert shortest_and_longest(['one', 'two', three', 'four', 'five', 'six']) == ('one', 'three')
 ```
 
+15. Study and understand the Shoelace algorithm for computing the area of an arbitrary polygon from the coordinates of its vertices:
+  * Mathologer's video: https://www.youtube.com/watch?v=0KjG8Pg6LGk
+  * Python implementation: https://www.101computing.net/the-shoelace-algorithm/ 
