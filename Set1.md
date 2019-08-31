@@ -1,7 +1,6 @@
 Problem Set 1
 ------
 
-Sign up onto checkio.org and begin solving all problems in the Elementary category. 
 
 1. Define the function `first_even(array)` that returns the first even elements from the its input argument, which is a list.
 
@@ -131,6 +130,8 @@ assert longest(['one', 'two', three', 'four', 'five', 'six']) == 'three'
 assert shortest_and_longest(['one', 'two', three', 'four', 'five', 'six']) == ('one', 'three')
 ```
 
-15. Study and understand the Shoelace algorithm for computing the area of an arbitrary polygon from the coordinates of its vertices:
+15. Study the Shoelace algorithm for computing the area of an arbitrary polygon from the coordinates of its vertices:
   * Mathologer's video: https://www.youtube.com/watch?v=0KjG8Pg6LGk
   * Python implementation: https://www.101computing.net/the-shoelace-algorithm/ 
+
+16. Extra: Sign up for an https://checkio.org account and begin solving the problems in the Elementary category. Share your experience in class.
