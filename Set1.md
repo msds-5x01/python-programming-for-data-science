@@ -55,7 +55,7 @@ def compute_polynomial(a, x):
     return 
 
 # test 
-assert compute_trinomial([-7, 2, 1, 1], 2) == 9.0
+assert compute_polynomial([-7, 2, 1, 1], 2) == 9.0
 ```
 
 6. Define the function `largest_rise(array)` that prints the largest number that is precided by a negative number in the input list:
@@ -130,8 +130,12 @@ assert longest(['one', 'two', three', 'four', 'five', 'six']) == 'three'
 assert shortest_and_longest(['one', 'two', three', 'four', 'five', 'six']) == ('one', 'three')
 ```
 
-15. Study the Shoelace algorithm for computing the area of an arbitrary polygon from the coordinates of its vertices:
+15. Define the function `cylinder_area` that calculates the surface area of a cylinder given its dimensions.
+
+16. Define the function `cone_volume` that calculates the volume of a cone given its dimensions.
+
+17. Study the Shoelace algorithm for computing the area of an arbitrary polygon from the coordinates of its vertices:
   * Mathologer's video: https://www.youtube.com/watch?v=0KjG8Pg6LGk
   * Python implementation: https://www.101computing.net/the-shoelace-algorithm/ 
 
-16. Extra: Sign up for an https://checkio.org account and begin solving the problems in the Elementary category. Share your experience in class.
+18. Extra: Sign up for an https://checkio.org account and begin solving the problems in the Elementary category. Share your experience in class.
