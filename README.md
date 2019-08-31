@@ -9,7 +9,12 @@ An introduction to programming in Python with emphasis on scientific computing, 
 
 The course will focus on practical problem solving, including individual assignments and group projects.
 
-*Textbook:* Multiple sources will be used for the course; all required matrials and references will be provided in the lectures.
+*Textbook:* Multiple sources will be used for the course; all required materials and references will be provided in the lectures.
+ 0. Python's Standard Documentation: https://docs.python.org/3/
+ 1. Python's official tutorials, Beginner's Guide: https://wiki.python.org/moin/BeginnersGuide
+ 2. Allen B. Downey "Think Python 2e" https://greenteapress.com/wp/think-python-2e/
+ 3. Wes McKinney "Python for Data Analysis, 2nd Edition" https://www.oreilly.com/library/view/python-for-data/9781491957653/
+
 
 *Instructor:* Dr. Dimitri Yatsenko (yatsend@stthom.edu)
 
@@ -17,18 +22,18 @@ The course will focus on practical problem solving, including individual assignm
 Python Basics: Interactive work, programs, and literate programming with Jupyter.
 Statements and expressions. Assignments, variables, datatypes, and objects.
 
-### Week 3. (Sep 4) - No class - work on project
+### Week 3. (Sep 4) - No class - work on assignments
 
-### Weeks 4-6 (Sep l1, 18, 25)
+### Weeks 4-6 (Sep 11, 18, 25)
 Data structures. Control flow. Functions. Introduction to algorithms.
 
 ### Weeks 7-9 (Oct 2, 9, 16)
-File input and output. Modules and packages. Classes.
+File input and output. Modules and packages. 
 
 ### Week 10 (Oct 23) - No class - Work on projects.
 
 ### Weeks 11-14 (Oct 30, Nov 6, 13, 20)
-Libraries for data analysis and visualization: `numpy` and `matplotlib`.
+Libraries for data analysis and visualization: `numpy`, `matplotlib`, and `pandas`.
 
 ### Week 15 (Nov 27) - no class - Thanksgiving
 
