@@ -99,7 +99,7 @@ assert match_word('Data Science', 'Data Sc.ence') == False
 10. Use the `match_pattern` function from Problem 9 to define the function `find_match` that returns the first string from a sequence of strings that matches the pattern. If no match is found return `None`: 
 
 ```python
-assert match_word('..UST..', ['Houston', 'NASA', 'UST', 'HOUSTON', 'Bayou']) == 'HOUSTON'
+assert find_match('..UST..', ['Houston', 'NASA', 'UST', 'HOUSTON', 'Bayou']) == 'HOUSTON'
 ```
 
 11. Define the function `second_biggest(array)` that returns the second biggest number of the list of numbers `array`:
@@ -125,8 +125,9 @@ assert middle(-3, -3, 4) == -3
 assert longest(['one', 'two', three', 'four', 'five', 'six']) == 'three'
 ```
 
-14. Define the function `shortest_and_longest` that returns the the tuple of shortest and longest strings from a sequence of strings. If two strings have the same length, then only the first one should be considered. 
+14. Define the function `shortest_and_longest` that returns the tuple containing the shortest and the longest string from a given sequence of strings. If two strings have the same length, then only the first one should be considered. 
 
 ```python
 assert shortest_and_longest(['one', 'two', three', 'four', 'five', 'six']) == ('one', 'three')
 ```
+
