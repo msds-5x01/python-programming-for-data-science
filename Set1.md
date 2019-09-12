@@ -2,24 +2,22 @@ Problem Set 1
 ------
 
 
-1. Define the function `first_even(array)` that returns the first even elements from the its input argument, which is a list.
+1. Define the function `first_even(array)` that returns the first even element from the its input argument, which is a list.
 
 ```python
 def first_even(array): 
     # write your code here
-    return 
 
 
 # test:
 assert first_even([1, 3, 7, 8, 4, 3, 7]) == 8
 ```
 
-2. Define the function `avg_even(array)` that return the average value of all the even values in the list `array`.
+2. Define the function `avg_even(array)` that returns the average value of all the even values in the list `array`.
 
 ```python
 def avg_even(array):
     # write your code here
-    return 
 
 # test
 assert avg_even([1, 3, 7, 2, 8, 3, 7, 6, 0]) == 4.0
@@ -58,7 +56,7 @@ def compute_polynomial(a, x):
 assert compute_polynomial([-7, 2, 1, 1], 2) == 9.0
 ```
 
-6. Define the function `largest_rise(array)` that prints the largest number that is precided by a negative number in the input list:
+6. Define the function `largest_rise(array)` that prints the largest number that is preceded by a negative number in the input list:
 
 ``` python
 # test
