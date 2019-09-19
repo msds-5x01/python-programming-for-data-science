@@ -30,7 +30,8 @@ Statements and expressions. Assignments, variables, datatypes, and objects.
 
 ### Weeks 4-6 (Sep 11, 18, 25)
 Data structures. Control flow. Functions. Introduction to algorithms.
-[Lecture-2019-09-11](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-11.ipynb)
+* [Lecture-2019-09-11](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-11.ipynb)
+* [Lecture-2019-09-18](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-18.ipynb)
 
 ### Weeks 7-9 (Oct 2, 9, 16)
 File input and output. Modules and packages. 
