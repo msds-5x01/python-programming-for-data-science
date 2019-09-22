@@ -16,8 +16,8 @@ The course will focus on practical problem solving, including individual assignm
  0. Python's Standard Documentation: https://docs.python.org/3/
  1. Python's official tutorials, Beginner's Guide: https://wiki.python.org/moin/BeginnersGuide
  2. Allen B. Downey "Think Python 2e" https://greenteapress.com/wp/think-python-2e/
- 3. Wes McKinney "Python for Data Analysis, 2nd Edition" https://www.oreilly.com/library/view/python-for-data/9781491957653/
-
+ 3. Michael Driscoll's Python 101: https://python101.pythonlibrary.org/
+ 4. Wes McKinney "Python for Data Analysis, 2nd Edition" https://www.oreilly.com/library/view/python-for-data/9781491957653/
 
 
 ### Weeks 1-2: (Aug 21, 28)
@@ -32,6 +32,7 @@ Statements and expressions. Assignments, variables, datatypes, and objects.
 Data structures. Control flow. Functions. Introduction to algorithms.
 * [Lecture-2019-09-11](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-11.ipynb)
 * [Lecture-2019-09-18](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-18.ipynb)
+* [Problem Set 3](https://github.com/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Set3.ipynb)
 
 ### Weeks 7-9 (Oct 2, 9, 16)
 File input and output. Modules and packages. 

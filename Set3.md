@@ -29,7 +29,7 @@ urllib.request.urlretrieve(url, filename)
 
 
 
-    ('us-cities.json', <http.client.HTTPMessage at 0x7fbb98c09978>)
+    ('us-cities.json', <http.client.HTTPMessage at 0x7fd3bc1274a8>)
 
 
 
@@ -40,7 +40,7 @@ Use the `ls` shell utility to verify that the file has downloaded
 ls -l *json 
 ```
 
-    -rw-r--r-- 1 dimitri dimitri 244212 Sep 22 03:28 us-cities.json
+    -rw-r--r-- 1 dimitri dimitri 244212 Sep 22 03:43 us-cities.json
 
 
 You may now use the [`json` module](https://docs.python.org/3/library/json.html) to read the list as a `list` of `dict`s
@@ -176,34 +176,34 @@ random.choices(cities, k=4)
 
 
 
-    [{'city': 'Everett',
-      'growth_from_2000_to_2013': '9.4%',
-      'latitude': 47.9789848,
-      'longitude': -122.2020794,
-      'population': '105370',
-      'rank': '269',
-      'state': 'Washington'},
-     {'city': 'St. Clair Shores',
-      'growth_from_2000_to_2013': '-4.6%',
-      'latitude': 42.4974085,
-      'longitude': -82.89636039999999,
-      'population': '60070',
-      'rank': '592',
-      'state': 'Michigan'},
-     {'city': 'Visalia',
-      'growth_from_2000_to_2013': '33.6%',
-      'latitude': 36.3302284,
-      'longitude': -119.2920585,
-      'population': '127763',
-      'rank': '201',
+    [{'city': 'Indio',
+      'growth_from_2000_to_2013': '66.0%',
+      'latitude': 33.7205771,
+      'longitude': -116.2155619,
+      'population': '83539',
+      'rank': '382',
       'state': 'California'},
-     {'city': 'West Haven',
-      'growth_from_2000_to_2013': '5.1%',
-      'latitude': 41.2705484,
-      'longitude': -72.9469711,
-      'population': '55046',
-      'rank': '662',
-      'state': 'Connecticut'}]
+     {'city': 'San Bernardino',
+      'growth_from_2000_to_2013': '13.0%',
+      'latitude': 34.1083449,
+      'longitude': -117.2897652,
+      'population': '213708',
+      'rank': '100',
+      'state': 'California'},
+     {'city': 'South Bend',
+      'growth_from_2000_to_2013': '-6.8%',
+      'latitude': 41.6763545,
+      'longitude': -86.25198979999999,
+      'population': '100886',
+      'rank': '288',
+      'state': 'Indiana'},
+     {'city': 'Palatine',
+      'growth_from_2000_to_2013': '4.5%',
+      'latitude': 42.1103041,
+      'longitude': -88.03424000000001,
+      'population': '69350',
+      'rank': '490',
+      'state': 'Illinois'}]
 
 
 
@@ -218,34 +218,34 @@ random.choices(cities, k=4, weights=city_populations)
 
 
 
-    [{'city': 'Lodi',
-      'growth_from_2000_to_2013': '10.1%',
-      'latitude': 38.1341477,
-      'longitude': -121.2722194,
-      'population': '63338',
-      'rank': '550',
-      'state': 'California'},
-     {'city': 'Muskogee',
-      'growth_from_2000_to_2013': '-0.7%',
-      'latitude': 35.7478769,
-      'longitude': -95.3696909,
-      'population': '38863',
-      'rank': '952',
-      'state': 'Oklahoma'},
-     {'city': 'Lexington-Fayette',
-      'growth_from_2000_to_2013': '18.0%',
-      'latitude': 38.0405837,
-      'longitude': -84.5037164,
-      'population': '308428',
-      'rank': '61',
-      'state': 'Kentucky'},
-     {'city': 'Roseville',
-      'growth_from_2000_to_2013': '56.2%',
-      'latitude': 38.7521235,
-      'longitude': -121.2880059,
-      'population': '127035',
-      'rank': '206',
-      'state': 'California'}]
+    [{'city': 'Paterson',
+      'growth_from_2000_to_2013': '-2.2%',
+      'latitude': 40.9167654,
+      'longitude': -74.17181099999999,
+      'population': '145948',
+      'rank': '175',
+      'state': 'New Jersey'},
+     {'city': 'Lakeland',
+      'growth_from_2000_to_2013': '18.3%',
+      'latitude': 28.0394654,
+      'longitude': -81.9498042,
+      'population': '100710',
+      'rank': '289',
+      'state': 'Florida'},
+     {'city': 'Seattle',
+      'growth_from_2000_to_2013': '15.6%',
+      'latitude': 47.6062095,
+      'longitude': -122.3320708,
+      'population': '652405',
+      'rank': '21',
+      'state': 'Washington'},
+     {'city': 'Canton',
+      'growth_from_2000_to_2013': '-10.3%',
+      'latitude': 40.79894729999999,
+      'longitude': -81.378447,
+      'population': '72535',
+      'rank': '463',
+      'state': 'Ohio'}]
 
 
 
@@ -312,7 +312,7 @@ urllib.request.urlretrieve(url, filename)
 
 
 
-    ('english-words.txt', <http.client.HTTPMessage at 0x7fbb85d4be10>)
+    ('english-words.txt', <http.client.HTTPMessage at 0x7fd3aed8c828>)
 
 
 
@@ -333,7 +333,7 @@ random.choice(words)
 
 
 
-    'inactivated'
+    'unimaginatively'
 
 
 
@@ -382,7 +382,7 @@ Without a list comprehension, one first creates an empty list and then adds elem
 
 
 ```python
-def find_sorted_words(words, min_length=5):
+def find_sorted_words(words, min_length=5, reverse=False):
     """
     :param words: list of words
     :min_length: only consider words of this length or longer
@@ -390,7 +390,7 @@ def find_sorted_words(words, min_length=5):
     """    
     sorted_words = []
     for word in words:
-        if len(word) >= min_length and list(word[::-1]) == sorted(word):
+        if len(word) >= min_length and list(word) == sorted(word, reverse=reverse):
             sorted_words.append(word)
     return sorted_words
 ```
@@ -398,6 +398,18 @@ def find_sorted_words(words, min_length=5):
 
 ```python
 find_sorted_words(words, min_length=7)
+```
+
+
+
+
+    ['billowy']
+
+
+
+
+```python
+find_sorted_words(words, min_length=7, reverse=True)
 ```
 
 
@@ -411,21 +423,21 @@ The same function can be implemented with a list comprehension:
 
 
 ```python
-def find_sorted_words(words, min_length=5):
+def find_sorted_words(words, min_length=5, reverse=False):
     """
     :param words: list of words
     :min_length: only consider words of this length or longer
     :return: list of words whose letters are in reverse alphabetical order
     """    
     return [word for word in words 
-            if len(word) >= min_length and list(word[::-1]) == sorted(word)]
+            if len(word) >= min_length and list(word) == sorted(word, reverse=reverse)]
 ```
 
 Here is another function that makes a word list:
 
 
 ```python
-def find_norepeats(words, min_length=8):
+def find_unique_letter_words(words, min_length=8):
     """
     :param words: list of words
     :min_length: only consider words of this length or longer
@@ -440,7 +452,7 @@ def find_norepeats(words, min_length=8):
 
 
 ```python
-find_norepeats(words, 13)
+find_unique_letter_words(words, 13)
 ```
 
 
@@ -569,10 +581,10 @@ As a more complex example, here is a list comprehension with nested `for` loops
 
 
 
-    ['Washington, District of Columbia',
-     'Wyoming, Michigan',
-     'Kansas City, Missouri',
+    ['Wyoming, Michigan',
      'West New York, New Jersey',
+     'Kansas City, Missouri',
+     'Washington, District of Columbia',
      'Missouri City, Texas']
 
 
@@ -610,7 +622,7 @@ estimate_pi(1_000_000)
 
 
 
-    3.140136
+    3.13932
 
 
 
@@ -844,6 +856,6 @@ def optimize_route(route, nshuffles=100_000):
     ...
 ```
 
-### Problem 14. Re-write the function `find_repeats` above but using a list comprehension instead.
+### Problem 14. Re-write the function `find_unique_letter_words` above but using a list comprehension instead.
 
 Enjoy!
