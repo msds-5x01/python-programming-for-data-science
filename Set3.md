@@ -29,7 +29,7 @@ urllib.request.urlretrieve(url, filename)
 
 
 
-    ('us-cities.json', <http.client.HTTPMessage at 0x7f02cd275978>)
+    ('us-cities.json', <http.client.HTTPMessage at 0x7fbb98c09978>)
 
 
 
@@ -40,7 +40,7 @@ Use the `ls` shell utility to verify that the file has downloaded
 ls -l *json 
 ```
 
-    -rw-r--r-- 1 dimitri dimitri 244212 Sep 22 02:51 us-cities.json
+    -rw-r--r-- 1 dimitri dimitri 244212 Sep 22 03:28 us-cities.json
 
 
 You may now use the [`json` module](https://docs.python.org/3/library/json.html) to read the list as a `list` of `dict`s
@@ -176,34 +176,34 @@ random.choices(cities, k=4)
 
 
 
-    [{'city': 'Georgetown',
-      'growth_from_2000_to_2013': '91.9%',
-      'latitude': 30.6332618,
-      'longitude': -97.6779842,
-      'population': '54898',
-      'rank': '666',
-      'state': 'Texas'},
-     {'city': 'Cathedral City',
-      'growth_from_2000_to_2013': '23.2%',
-      'latitude': 33.7805388,
-      'longitude': -116.4668036,
-      'population': '52977',
-      'rank': '693',
+    [{'city': 'Everett',
+      'growth_from_2000_to_2013': '9.4%',
+      'latitude': 47.9789848,
+      'longitude': -122.2020794,
+      'population': '105370',
+      'rank': '269',
+      'state': 'Washington'},
+     {'city': 'St. Clair Shores',
+      'growth_from_2000_to_2013': '-4.6%',
+      'latitude': 42.4974085,
+      'longitude': -82.89636039999999,
+      'population': '60070',
+      'rank': '592',
+      'state': 'Michigan'},
+     {'city': 'Visalia',
+      'growth_from_2000_to_2013': '33.6%',
+      'latitude': 36.3302284,
+      'longitude': -119.2920585,
+      'population': '127763',
+      'rank': '201',
       'state': 'California'},
-     {'city': 'Shreveport',
-      'growth_from_2000_to_2013': '-0.1%',
-      'latitude': 32.5251516,
-      'longitude': -93.7501789,
-      'population': '200327',
-      'rank': '113',
-      'state': 'Louisiana'},
-     {'city': 'Warren',
-      'growth_from_2000_to_2013': '-15.2%',
-      'latitude': 41.2375569,
-      'longitude': -80.81841659999999,
-      'population': '40768',
-      'rank': '901',
-      'state': 'Ohio'}]
+     {'city': 'West Haven',
+      'growth_from_2000_to_2013': '5.1%',
+      'latitude': 41.2705484,
+      'longitude': -72.9469711,
+      'population': '55046',
+      'rank': '662',
+      'state': 'Connecticut'}]
 
 
 
@@ -218,34 +218,34 @@ random.choices(cities, k=4, weights=city_populations)
 
 
 
-    [{'city': 'Hickory',
-      'growth_from_2000_to_2013': '7.0%',
-      'latitude': 35.7344538,
-      'longitude': -81.3444573,
-      'population': '40361',
-      'rank': '915',
-      'state': 'North Carolina'},
-     {'city': 'Johnson City',
-      'growth_from_2000_to_2013': '16.2%',
-      'latitude': 36.3134397,
-      'longitude': -82.3534727,
-      'population': '65123',
-      'rank': '535',
-      'state': 'Tennessee'},
-     {'city': 'Fresno',
-      'growth_from_2000_to_2013': '18.3%',
-      'latitude': 36.7468422,
-      'longitude': -119.7725868,
-      'population': '509924',
-      'rank': '34',
+    [{'city': 'Lodi',
+      'growth_from_2000_to_2013': '10.1%',
+      'latitude': 38.1341477,
+      'longitude': -121.2722194,
+      'population': '63338',
+      'rank': '550',
       'state': 'California'},
-     {'city': 'Atlanta',
-      'growth_from_2000_to_2013': '6.2%',
-      'latitude': 33.7489954,
-      'longitude': -84.3879824,
-      'population': '447841',
-      'rank': '40',
-      'state': 'Georgia'}]
+     {'city': 'Muskogee',
+      'growth_from_2000_to_2013': '-0.7%',
+      'latitude': 35.7478769,
+      'longitude': -95.3696909,
+      'population': '38863',
+      'rank': '952',
+      'state': 'Oklahoma'},
+     {'city': 'Lexington-Fayette',
+      'growth_from_2000_to_2013': '18.0%',
+      'latitude': 38.0405837,
+      'longitude': -84.5037164,
+      'population': '308428',
+      'rank': '61',
+      'state': 'Kentucky'},
+     {'city': 'Roseville',
+      'growth_from_2000_to_2013': '56.2%',
+      'latitude': 38.7521235,
+      'longitude': -121.2880059,
+      'population': '127035',
+      'rank': '206',
+      'state': 'California'}]
 
 
 
@@ -312,7 +312,7 @@ urllib.request.urlretrieve(url, filename)
 
 
 
-    ('english-words.txt', <http.client.HTTPMessage at 0x7f02cc6da9e8>)
+    ('english-words.txt', <http.client.HTTPMessage at 0x7fbb85d4be10>)
 
 
 
@@ -333,7 +333,7 @@ random.choice(words)
 
 
 
-    'stolidity'
+    'inactivated'
 
 
 
@@ -569,11 +569,11 @@ As a more complex example, here is a list comprehension with nested `for` loops
 
 
 
-    ['Missouri City, Texas',
-     'West New York, New Jersey',
-     'Kansas City, Missouri',
+    ['Washington, District of Columbia',
      'Wyoming, Michigan',
-     'Washington, District of Columbia']
+     'Kansas City, Missouri',
+     'West New York, New Jersey',
+     'Missouri City, Texas']
 
 
 
@@ -610,7 +610,7 @@ estimate_pi(1_000_000)
 
 
 
-    3.141824
+    3.140136
 
 
 
@@ -626,7 +626,8 @@ def estimate_pi(npoints=100_000):
 ```
 
 ### More on sorting
-The Python functions `sort`, `max`, and `min` accept the argument `key` argument, which is a function that on elements of the list that returns a number.
+The Python functions `sort`, `max`, and `min` accept the argument `key`. It must point to a function that is applied to every element, returning a number. That number is then used for sorting.
+
 This `key` can be a function that you define.
 
 
@@ -756,14 +757,17 @@ Assume that `cities` represent the entire US population, ignoring smaller cities
 
 ### Problem 1. Find all common English words that contain "zz", e.g. "pizza" 
 
-### Problem 2: Find all common English words that have at least two Ys anywhere in the word, e.g. "sympathy".
+### Problem 2: Find all common English words that have at least three Ys anywhere in the word, e.g. "synonymously".
 **Hint:** Use the string `.count` method, e.g. `"sympathy".count("y")` will yield 2. Use the `words` lists defined above.
 
 ### Problem 3: Find the longest english word
 Show your Python code
 
-### Problem 4: Find the longest word with no vowels other than "a".
-For example, the longest word with no vowels other than "e" is "nevertheless". 
+### Problem 4: Find the longest word whose only vowels are "a".
+For example, the longest word with no vowels other than "e" is "defenselessness".
+
+
+
 
 ### Problem 5. Using our word list, confirm the spelling rule: "I before E except after C"
 1. Count the number of words that contain "cie", e.g. "society"
