@@ -29,7 +29,7 @@ urllib.request.urlretrieve(url, filename)
 
 
 
-    ('us-cities.json', <http.client.HTTPMessage at 0x7fd3bc1274a8>)
+    ('us-cities.json', <http.client.HTTPMessage at 0x7fa75460edd8>)
 
 
 
@@ -40,7 +40,7 @@ Use the `ls` shell utility to verify that the file has downloaded
 ls -l *json 
 ```
 
-    -rw-r--r-- 1 dimitri dimitri 244212 Sep 22 03:43 us-cities.json
+    -rw-r--r-- 1 dimitri dimitri 244212 Sep 25 10:20 us-cities.json
 
 
 You may now use the [`json` module](https://docs.python.org/3/library/json.html) to read the list as a `list` of `dict`s
@@ -138,20 +138,6 @@ cities[-4:]
 
 Or use the [`random` module](https://docs.python.org/3/library/random.html) to pick a city at random:
 
-`cities` has the growth rate as a string. You can convert it to a number using the `float` constructor but first you need to strip the `%`:
-
-
-```python
-float(cities[3]['growth_from_2000_to_2013'].rstrip('%'))
-```
-
-
-
-
-    11.0
-
-
-
 
 ```python
 import random
@@ -176,38 +162,38 @@ random.choices(cities, k=4)
 
 
 
-    [{'city': 'Indio',
-      'growth_from_2000_to_2013': '66.0%',
-      'latitude': 33.7205771,
-      'longitude': -116.2155619,
-      'population': '83539',
-      'rank': '382',
-      'state': 'California'},
-     {'city': 'San Bernardino',
-      'growth_from_2000_to_2013': '13.0%',
-      'latitude': 34.1083449,
-      'longitude': -117.2897652,
-      'population': '213708',
-      'rank': '100',
-      'state': 'California'},
-     {'city': 'South Bend',
-      'growth_from_2000_to_2013': '-6.8%',
-      'latitude': 41.6763545,
-      'longitude': -86.25198979999999,
-      'population': '100886',
-      'rank': '288',
-      'state': 'Indiana'},
-     {'city': 'Palatine',
-      'growth_from_2000_to_2013': '4.5%',
-      'latitude': 42.1103041,
-      'longitude': -88.03424000000001,
-      'population': '69350',
-      'rank': '490',
-      'state': 'Illinois'}]
+    [{'city': 'Berwyn',
+      'growth_from_2000_to_2013': '5.1%',
+      'latitude': 41.85058739999999,
+      'longitude': -87.7936685,
+      'population': '56758',
+      'rank': '638',
+      'state': 'Illinois'},
+     {'city': 'Owensboro',
+      'growth_from_2000_to_2013': '7.7%',
+      'latitude': 37.7719074,
+      'longitude': -87.1111676,
+      'population': '58416',
+      'rank': '617',
+      'state': 'Kentucky'},
+     {'city': 'Niagara Falls',
+      'growth_from_2000_to_2013': '-10.8%',
+      'latitude': 43.0962143,
+      'longitude': -79.0377388,
+      'population': '49468',
+      'rank': '754',
+      'state': 'New York'},
+     {'city': 'Prescott',
+      'growth_from_2000_to_2013': '18.1%',
+      'latitude': 34.5400242,
+      'longitude': -112.4685025,
+      'population': '40590',
+      'rank': '907',
+      'state': 'Arizona'}]
 
 
 
-Or select four cities in proportion to their populations. This corresponds to picking a random person and asking what city they live in.
+Or select four cities with probability proportional to their populations. This is equivalent to picking a random person and asking what city they live in.
 
 
 ```python
@@ -218,36 +204,52 @@ random.choices(cities, k=4, weights=city_populations)
 
 
 
-    [{'city': 'Paterson',
-      'growth_from_2000_to_2013': '-2.2%',
-      'latitude': 40.9167654,
-      'longitude': -74.17181099999999,
-      'population': '145948',
-      'rank': '175',
-      'state': 'New Jersey'},
-     {'city': 'Lakeland',
-      'growth_from_2000_to_2013': '18.3%',
-      'latitude': 28.0394654,
-      'longitude': -81.9498042,
-      'population': '100710',
-      'rank': '289',
+    [{'city': 'Fort Wayne',
+      'growth_from_2000_to_2013': '1.0%',
+      'latitude': 41.079273,
+      'longitude': -85.1393513,
+      'population': '256496',
+      'rank': '76',
+      'state': 'Indiana'},
+     {'city': 'Charlotte',
+      'growth_from_2000_to_2013': '39.1%',
+      'latitude': 35.2270869,
+      'longitude': -80.8431267,
+      'population': '792862',
+      'rank': '16',
+      'state': 'North Carolina'},
+     {'city': 'Orlando',
+      'growth_from_2000_to_2013': '31.2%',
+      'latitude': 28.5383355,
+      'longitude': -81.3792365,
+      'population': '255483',
+      'rank': '77',
       'state': 'Florida'},
-     {'city': 'Seattle',
-      'growth_from_2000_to_2013': '15.6%',
-      'latitude': 47.6062095,
-      'longitude': -122.3320708,
-      'population': '652405',
-      'rank': '21',
-      'state': 'Washington'},
-     {'city': 'Canton',
-      'growth_from_2000_to_2013': '-10.3%',
-      'latitude': 40.79894729999999,
-      'longitude': -81.378447,
-      'population': '72535',
-      'rank': '463',
-      'state': 'Ohio'}]
+     {'city': 'San Bernardino',
+      'growth_from_2000_to_2013': '13.0%',
+      'latitude': 34.1083449,
+      'longitude': -117.2897652,
+      'population': '213708',
+      'rank': '100',
+      'state': 'California'}]
 
 
+
+`cities` has the growth rate as a string. You can convert it to a number using the `float` constructor but first you need to strip the `%`:
+
+
+```python
+float(cities[3]['growth_from_2000_to_2013'].rstrip('%'))
+```
+
+
+
+
+    11.0
+
+
+
+Here is a function to compute distances between cities:
 
 
 ```python
@@ -297,10 +299,7 @@ print(f"Total distance: {distance:.0f} km")
 
 
 ### English words
-Another nice person posted the list of some 10,000 common English words: https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt
-
-[Another team](https://github.com/first20hours/google-10000-english) has posted the 10,000 most common English words with swear words excluded. 
-url = https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt. Let's save this files as `english-words-10000.txt`
+Another nice person posted the list of some 60,000 common English words: http://www.mieliestronk.com/corncob_lowercase.txt
 
 
 ```python
@@ -312,7 +311,7 @@ urllib.request.urlretrieve(url, filename)
 
 
 
-    ('english-words.txt', <http.client.HTTPMessage at 0x7fd3aed8c828>)
+    ('english-words.txt', <http.client.HTTPMessage at 0x7fa74d57b898>)
 
 
 
@@ -333,7 +332,7 @@ random.choice(words)
 
 
 
-    'unimaginatively'
+    'foretell'
 
 
 
@@ -581,11 +580,11 @@ As a more complex example, here is a list comprehension with nested `for` loops
 
 
 
-    ['Wyoming, Michigan',
+    ['Missouri City, Texas',
+     'Wyoming, Michigan',
      'West New York, New Jersey',
-     'Kansas City, Missouri',
      'Washington, District of Columbia',
-     'Missouri City, Texas']
+     'Kansas City, Missouri']
 
 
 
@@ -622,7 +621,7 @@ estimate_pi(1_000_000)
 
 
 
-    3.13932
+    3.142608
 
 
 
@@ -663,7 +662,7 @@ help(max)
 
 ```python
 def count_vowels(word):
-    return sum(word.count(c) for c in "aeioy")
+    return sum(word.count(c) for c in "aeuioy")
 
 # word with most vowels
 max(words, key=count_vowels)
@@ -672,7 +671,7 @@ max(words, key=count_vowels)
 
 
 
-    'hypercholesterolaemia'
+    'counterrevolutionaries'
 
 
 
