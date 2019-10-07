@@ -36,6 +36,9 @@ Data structures. Control flow. Functions. Introduction to algorithms.
 
 ### Weeks 7-9 (Oct 2, 9, 16)
 File input and output. Modules and packages. 
+* [Review Practice](Mid-Review-Practice.md)
+* Exam: take-home, individual
+
 
 ### Week 10 (Oct 23) - No class - Work on projects.
 
