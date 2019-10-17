@@ -37,12 +37,9 @@ Data structures. Control flow. Functions. Introduction to algorithms.
 ### Weeks 7-9 (Oct 2, 9, 16)
 File input and output. Modules and packages. 
 * [Review Practice](Mid-Review-Practice.md)
-* Exam: take-home, individual
+* [Test 1](Test1.md): take-home, individual. Due 5 pm Oct 23.
 
-
-### Week 10 (Oct 23) - No class - Work on projects.
-
-### Weeks 11-14 (Oct 30, Nov 6, 13, 20)
+### Weeks 10-14 (Oct 23 and 30, Nov 6, 13, 20)
 Libraries for data analysis and visualization: `numpy`, `matplotlib`, and `pandas`.
 
 ### Week 15 (Nov 27) - no class - Thanksgiving
