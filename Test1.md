@@ -264,7 +264,7 @@ It must pass the following `assert`
 
 ```python
 assert word_lengths("University of Saint Thomas") == [10, 2, 5, 6]
-assert acronum("The Museum of Fine Arts") == [3, 7, 2, 4, 4]
+assert acronum("The Museum of Fine Arts") == [3, 6, 2, 4, 4]
 ```
 
 #### 32. Write the code that computes the fraction of English words containing the letter `e`.
