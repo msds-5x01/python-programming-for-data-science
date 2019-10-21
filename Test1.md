@@ -226,8 +226,8 @@ assert is_right_triangle(8, 17, 15)
 assert is_right_triangle(25, 24, 7)
 
 # These are not right triangles, the function should return False
-assert not is_right_triangle(3, 7, 3)
-assert not is_right_triangle(10, 4, 4)
+assert not is_right_triangle(3, 7, 9)
+assert not is_right_triangle(10, 8, 4)
 ```
 
 ## 3. More difficult programs (10 points each)
