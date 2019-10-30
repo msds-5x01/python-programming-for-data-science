@@ -41,6 +41,7 @@ File input and output. Modules and packages.
 
 ### Weeks 10-14 (Oct 23 and 30, Nov 6, 13, 20)
 Libraries for data analysis and visualization: `numpy`, `matplotlib`, and `pandas`.
+* Numpy Exercises https://www.w3resource.com/python-exercises/numpy/linear-algebra/index.php
 
 ### Week 15 (Nov 27) - no class - Thanksgiving
 
