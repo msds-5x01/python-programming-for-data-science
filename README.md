@@ -39,9 +39,15 @@ File input and output. Modules and packages.
 * [Review Practice](Mid-Review-Practice.md)
 * [Test 1](Test1.md): take-home, individual. Due 5 pm Oct 23.
 
-### Weeks 10-14 (Oct 23 and 30, Nov 6, 13, 20)
+### Weeks 10-12 (Oct 23 and 30, Nov 6)
 Libraries for data analysis and visualization: `numpy`, `matplotlib`, and `pandas`.
-* Numpy Exercises https://www.w3resource.com/python-exercises/numpy/linear-algebra/index.php
+* Numpy Exercises [https://www.w3resource.com/python-exercises/numpy/index.php]
+
+### Week 13 
+Work with the CityLines dataset
+* Navigate the CityLines dataset [CityLines](https://nbviewer.com/msds-5x01/python-programming-for-data-science/blob/master/notebooks/CityLines.ipynb)
+
+
 
 ### Week 15 (Nov 27) - no class - Thanksgiving
 
