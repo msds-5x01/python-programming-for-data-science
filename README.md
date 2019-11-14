@@ -32,7 +32,7 @@ Statements and expressions. Assignments, variables, datatypes, and objects.
 Data structures. Control flow. Functions. Introduction to algorithms.
 * [Lecture-2019-09-11](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-11.ipynb)
 * [Lecture-2019-09-18](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Lecture-2019-09-18.ipynb)
-* [Problem Set 3](https://nbviewer.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Set3.ipynb)
+* [Problem Set 3](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/Set3.ipynb)
 
 ### Weeks 7-9 (Oct 2, 9, 16)
 File input and output. Modules and packages. 
@@ -45,7 +45,7 @@ Libraries for data analysis and visualization: `numpy`, `matplotlib`, and `panda
 
 ### Week 13 
 Work with the CityLines dataset
-* Navigate the CityLines dataset [CityLines](https://nbviewer.com/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/CityLines.ipynb)
+* Navigate the CityLines dataset [CityLines](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/CityLines.ipynb)
 
 
 
