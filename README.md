@@ -44,7 +44,7 @@ Libraries for data analysis and visualization: `numpy`, `matplotlib`, and `panda
 * Numpy Exercises [https://www.w3resource.com/python-exercises/numpy/index.php]
 
 ### Week 13 
-Work with the CityLines dataset
+Work with the CityLines dataset and Final Project:
 * Navigate the CityLines dataset [CityLines](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/CityLines.ipynb)
 
 
