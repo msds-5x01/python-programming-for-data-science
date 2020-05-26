@@ -15,12 +15,13 @@ The course will focus on practical problem solving, including individual assignm
  2. Allen B. Downey "Think Python 2e" https://greenteapress.com/wp/think-python-2e/
  3. Michael Driscoll's Python 101: https://python101.pythonlibrary.org/
  4. Wes McKinney "Python for Data Analysis, 2nd Edition" https://www.oreilly.com/library/view/python-for-data/9781491957653/
+ 5. Deitel, Deitel, and Deitel "Python for Programmers, 1st Edition" https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/,  ISBN: 9780135231364
 
 
 ### Week 1: May 26, 28
 
 * Command-line utilities and scripting.
-* Configuring a programming environment for Python 3.6+.
+* Configuring a programming environment for Python 3.6+
 * Code management `git` and sharing with GitHub.
 * Python Basics: Interactive work, programs, and literate programming with Jupyter.
 * Statements and expressions. Assignments, variables, datatypes, and objects.
@@ -51,6 +52,7 @@ The course will focus on practical problem solving, including individual assignm
 ### Week 4: June 16, 18
 
 * Classes and object-oriented programming.
+* Exceptions
 * Scientific computing with `numpy` and `scipy`.
 * Visualizations with `matplotlib`.
 
