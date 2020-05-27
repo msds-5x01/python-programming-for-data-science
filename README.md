@@ -43,8 +43,8 @@ The course will focus on practical problem solving, including individual assignm
 * Modules and packages.
 * The standard library.
 * Python Package Index and `pip`.
-* CSV and JSON files.
 * Work with files.
+* CSV and JSON files.
 * Regular expressions.
 * Creating modules and packages.
 * **Test 1**.
