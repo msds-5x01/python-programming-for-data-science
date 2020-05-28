@@ -17,6 +17,23 @@ The course will focus on practical problem solving, including individual assignm
  4. Wes McKinney "Python for Data Analysis, 2nd Edition" https://www.oreilly.com/library/view/python-for-data/9781491957653/
  5. Deitel, Deitel, and Deitel "Python for Programmers, 1st Edition" https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/,  ISBN: 9780135231364
 
+## Grading 
+10 Assignments
+
+|grade| percent |
+|---|---|
+|**A** |>=94%|
+|**A-**|>=90%|
+|**B+**|>=86%|
+|**B**|>=82%|
+|**B-**|>=78%|
+|**C+**|>=74%|
+|**C**|>=70%|
+|**C-**|>=66%|
+|**D+**|>=62%|
+|**D**|>=58%|
+|**F**|>=0%|
+
 
 ### Week 1: May 26, 28
 
