@@ -43,7 +43,7 @@ The course will focus on practical problem solving, including individual assignm
 * Python Basics: Interactive work, programs, and literate programming with Jupyter.
 * Statements and expressions. Assignments, variables, datatypes, and objects.
 
-[Assignment 01](assignments/Set01.md)  [Lecture 2 notebook](notebooks/001-Expressions.ipynb)
+[Assignment 01](assignments/Set01.md) - [Lecture 2](https://nbviewer.jupyter.org/github/msds-5x01/python-programming-for-data-science/blob/master/notebooks/001-Expressions.ipynb)
 
 ### Week 2: June 2, 4
 
