@@ -1,4 +1,4 @@
-# MSDS 5X01 - Programming for Data Science
+#MSDS 5X01 - Programming for Data Science
 
 **MS Applied Data Science**
 
@@ -25,6 +25,8 @@ The course will focus on practical problem solving, including individual assignm
 * Code management `git` and sharing with GitHub.
 * Python Basics: Interactive work, programs, and literate programming with Jupyter.
 * Statements and expressions. Assignments, variables, datatypes, and objects.
+
+[Assignment 01](assignments/Set01.md)
 
 ### Week 2: June 2, 4
 
