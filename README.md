@@ -43,7 +43,7 @@ The course will focus on practical problem solving, including individual assignm
 * Python Basics: Interactive work, programs, and literate programming with Jupyter.
 * Statements and expressions. Assignments, variables, datatypes, and objects.
 * [Assignment 01](assignments/Set01.md) - due June 2
-* [Lecture 2](notebooks/001-Expressions.ipynb) - Homework 2 due 5 pm, June 5
+* [Lecture 2](notebooks/001-Expressions.ipynb) - Homework 2 due June (5 pm)
 
 ### Week 2: June 2, 4
 
@@ -56,8 +56,8 @@ The course will focus on practical problem solving, including individual assignm
 * Comprehensions.
 * Iterators and generators.
 * PEP 8.
-* [Lecture 3](notebooks/002-Structures.ipynb) - Homework 3 due 5 pm, June 9
-* [Lecture 4](notebooks/003-Functions.ipynb) - Homework 4, due jjkkk
+* [Lecture 3](notebooks/002-Structures.ipynb) - Homework 3 due June 10 (5 pm)
+* [Lecture 4](notebooks/003-Functions.ipynb) - Homework 4, due June 12 (5 pm)
 
 ### Week 3: June 9, 11
 
