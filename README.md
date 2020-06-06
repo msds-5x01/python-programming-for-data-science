@@ -57,7 +57,7 @@ The course will focus on practical problem solving, including individual assignm
 * Iterators and generators.
 * PEP 8.
 * [Lecture 3](notebooks/002-Structures.ipynb) - Homework 3 - due June 10 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/wctz10P_)
-* [Lecture 4](notebooks/003-Functions.ipynb) - Homework 4 - due June 12 (5 pm) - [GitHubClassroom]()
+* [Lecture 4](notebooks/003-Functions.ipynb) - Homework 4 - due June 12 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/HFVLo876)
 
 ### Week 3: June 9, 11
 
@@ -89,13 +89,14 @@ The course will focus on practical problem solving, including individual assignm
 1. Follow the link provided in class to create the assignment repository
 2. Wait (this may take many hours!) for GitHub to notify you that your repository is ready.
 3. Follow the link to your repository
-4. Under "Clone and download"  copy the URL. It will look something like "https://github.com/msds-5315/002-structures-dimitri-yatsenko.git"
+4. Under "Clone and download"  copy the URL. It will look something like `https://github.com/msds-5315/002-structures-dimitri-yatsenko.git`
 5. Open a terminal shell on your computer and navigate to your work directory
 6. Clone your homework repository with the command:
 ```shell
 git clone https://github.com/msds-5315/002-structures-dimitri-yatsenko.git
 ```
-This will create a folder with the same name, e.g. `002-structures-dimitri-yatsenko`. This folder contains the contents of your assignment: programs, notebooks, files, etc.
+ This will create a folder with the same name, e.g. `002-structures-dimitri-yatsenko`. This folder contains the contents of your assignment: programs, notebooks, files, etc.
+
 7. Modify the contents of the folder to complete your homework
 8. After completing your homework, add, commit, and submit your files:
 ```shell
@@ -104,4 +105,4 @@ git add -u
 git commit -m "Complete homework"
 git push
 ```
-9. Enjoy the rest of your day
+9. Enjoy the rest of your day.
