@@ -69,7 +69,7 @@ The course will focus on practical problem solving, including individual assignm
 * CSV and JSON files.
 * Regular expressions.
 * Creating modules and packages.
-* [Lecture 5](notebooks/004-Files.ipynb] - Homework 5 - due June 17 (5 pm) - 
+* [Lecture 5](notebooks/004-Files.ipynb) - Homework 5 - due June 17 (5 pm) - 
 
 ### Week 4: June 16, 18
 
