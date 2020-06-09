@@ -61,14 +61,15 @@ The course will focus on practical problem solving, including individual assignm
 
 ### Week 3: June 9, 11
 
-* Modules and packages.
+* A few algorithms
+* Work with files.
 * The standard library.
 * Python Package Index and `pip`.
-* Work with files.
+* Modules and packages.
 * CSV and JSON files.
 * Regular expressions.
 * Creating modules and packages.
-* **Test 1**.
+* [Lecture 5](notebooks/004-Files.ipynb] - Homework 5 - due June 17 (5 pm) - 
 
 ### Week 4: June 16, 18
 
