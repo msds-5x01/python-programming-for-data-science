@@ -67,23 +67,21 @@ The course will focus on practical problem solving, including individual assignm
 * Python Package Index and `pip`.
 * Modules and packages.
 * CSV and JSON files.
-* Regular expressions.
-* Creating modules and packages.
-* [Lecture 5](notebooks/004-Files.ipynb) - Homework 5 - due June 17 (5 pm) - 
+* [Lecture 5](notebooks/004-Files.ipynb) - Homework 5 - due June 20 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/a8XR0jz8)
 
 ### Week 4: June 16, 18
 
+* Creating modules and packages.
+* Regular expressions.
 * Classes and object-oriented programming.
 * Exceptions
 * Scientific computing with `numpy` and `scipy`.
 * Visualizations with `matplotlib`.
 
-
 ### Week 5: June 23, 25
 
 * Operations on tabuar data with `pandas`
 * Data analysis with `sklearn`.
-* **Final project**
 
 ### Submitting homework through GitHub Classroom (will review in the June 9 lecture)
 
