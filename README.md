@@ -71,12 +71,13 @@ The course will focus on practical problem solving, including individual assignm
 
 ### Week 4: June 16, 18
 
-* Creating modules and packages.
-* Regular expressions.
 * Classes and object-oriented programming.
+* Creating modules and packages.
 * Exceptions
+* Regular expressions.
 * Scientific computing with `numpy` and `scipy`.
 * Visualizations with `matplotlib`.
+* [Lecture 6](notebooks/005-Classes.ipynb) - Homework 5 - due June 24 (5 pm) -
 
 ### Week 5: June 23, 25
 
