@@ -56,8 +56,8 @@ The course will focus on practical problem solving, including individual assignm
 * Comprehensions.
 * Iterators and generators.
 * PEP 8.
-* [Lecture 3](notebooks/002-Structures.ipynb) - Homework 3 - due June 10 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/wctz10P_)
-* [Lecture 4](notebooks/003-Functions.ipynb) - Homework 4 - due June 12 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/HFVLo876)
+* [Lecture 3](notebooks/002-Structures.ipynb) - Homework `002-Structures`  - due June 10 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/wctz10P_)
+* [Lecture 4](notebooks/003-Functions.ipynb) - Homework `003-Functions` - due June 12 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/HFVLo876)
 
 ### Week 3: June 9, 11
 
@@ -67,7 +67,7 @@ The course will focus on practical problem solving, including individual assignm
 * Python Package Index and `pip`.
 * Modules and packages.
 * CSV and JSON files.
-* [Lecture 5](notebooks/004-Files.ipynb) - Homework 5 - due June 20 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/a8XR0jz8)
+* [Lectures 5, 6](notebooks/004-Files.ipynb) - Homework `004-Files` - due June 20 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/a8XR0jz8)
 
 ### Week 4: June 16, 18
 
@@ -77,7 +77,7 @@ The course will focus on practical problem solving, including individual assignm
 * Regular expressions.
 * Scientific computing with `numpy` and `scipy`.
 * Visualizations with `matplotlib`.
-* [Lecture 6](notebooks/005-Classes.ipynb) - Homework 5 - due June 24 (5 pm) -
+* [Lecture 7](notebooks/005-Classes.ipynb) - Homework `005-Classes` - due June 24 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/QYWFkYI_)
 
 ### Week 5: June 23, 25
 
