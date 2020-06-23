@@ -16,6 +16,7 @@ The course will focus on practical problem solving, including individual assignm
  3. Michael Driscoll's Python 101: https://python101.pythonlibrary.org/
  4. Wes McKinney "Python for Data Analysis, 2nd Edition" https://www.oreilly.com/library/view/python-for-data/9781491957653/
  5. Deitel, Deitel, and Deitel "Python for Programmers, 1st Edition" https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/,  ISBN: 9780135231364
+ 
 
 ## Grading 
 10 Assignments
@@ -75,15 +76,16 @@ The course will focus on practical problem solving, including individual assignm
 * Creating modules and packages.
 * Exceptions
 * Regular expressions.
-* Scientific computing with `numpy` and `scipy`.
+* Scientific computing with `numpy` 
 * Visualizations with `matplotlib`.
 * [Lecture 7](notebooks/005-Classes.ipynb) - Homework `005-Classes` - due June 24 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/QYWFkYI_)
-* [Lecture 8](notebooks/006-Numpy.ipynb) 
+* [Lecture 8](notebooks/006-Numpy.ipynb) - Homework `006-Numpy` - due June 27 (5 pm)
 
 ### Week 5: June 23, 25
 
-* Operations on tabuar data with `pandas`
-* Data analysis with `sklearn`.
+* Recursion
+* more `numpy` and `matplotlib`.
+* Review 
 
 ### Submitting homework through GitHub Classroom (will review in the June 9 lecture)
 
