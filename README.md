@@ -79,7 +79,7 @@ The course will focus on practical problem solving, including individual assignm
 * Scientific computing with `numpy` 
 * Visualizations with `matplotlib`.
 * [Lecture 7](notebooks/005-Classes.ipynb) - Homework `005-Classes` - due June 24 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/QYWFkYI_)
-* [Lecture 8](notebooks/006-Numpy.ipynb) - Homework `006-Numpy` - due June 27 (5 pm)
+* [Lecture 8](notebooks/006-Numpy.ipynb) - Homework `006-Numpy` - due June 29 (7 pm) - [GitHubClassroom](https://classroom.github.com/a/K4iIChSK}
 
 ### Week 5: June 23, 25
 
