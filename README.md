@@ -1,4 +1,4 @@
-#MSDS 5X01 - Programming for Data Science
+# MSDS 5X01 - Programming for Data Science
 
 **MS Applied Data Science**
 
@@ -36,17 +36,16 @@ The course will focus on practical problem solving, including individual assignm
 |**F**|>=0%|
 
 
-### Week 1: May 26, 28
+### Week 1: May 25, 26
 
 * Command-line utilities and scripting.
 * Configuring a programming environment for Python 3.6+
 * Code management `git` and sharing with GitHub.
 * Python Basics: Interactive work, programs, and literate programming with Jupyter.
 * Statements and expressions. Assignments, variables, datatypes, and objects.
-* [Assignment 01](assignments/Set01.md) - due June 2
-* [Lecture 2](notebooks/001-Expressions.ipynb) - Homework 2 - due June 5 (5 pm)
+* [Lecture 1](notebooks/001-Expressions.ipynb) - Homework 1 - due June 3 (5 pm)
 
-### Week 2: June 2, 4
+### Week 2: June 1, 3
 
 * Data structures: tuples, lists, strings, sets, dicts.
 * Control flow: conditions and loops.
@@ -57,10 +56,10 @@ The course will focus on practical problem solving, including individual assignm
 * Comprehensions.
 * Iterators and generators.
 * PEP 8.
-* [Lecture 3](notebooks/002-Structures.ipynb) - Homework `002-Structures`  - due June 10 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/wctz10P_)
-* [Lecture 4](notebooks/003-Functions.ipynb) - Homework `003-Functions` - due June 12 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/HFVLo876)
+* [Lecture 2](notebooks/002-Structures.ipynb) - Homework `002-Structures`  - due June 8 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/wctz10P_)
+* [Lecture 4](notebooks/003-Functions.ipynb) - Homework `003-Functions` - due June 10 (5 pm) - [GitHubClassroom](https://classroom.github.com/a/HFVLo876)
 
-### Week 3: June 9, 11
+### Week 3: June 8, 10
 
 * A few algorithms
 * Work with files.
